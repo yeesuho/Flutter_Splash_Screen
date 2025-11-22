@@ -22,11 +22,17 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset('asset/img/logo.png'),
+            SizedBox(
+              height: 18,
+            ),
             Image.asset('asset/img/FollowME.png'),
+            SizedBox(
+              height: 64,
+            ),
             CircularProgressIndicator(
               strokeCap: StrokeCap.square,
               strokeWidth: 8.0,
-              padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
+              // padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
               color: Color(0xFF32D7A0),
             ),
           ],
